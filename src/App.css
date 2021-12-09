@@ -1,0 +1,16 @@
+.main {
+  width: 350px;
+  border: 1px solid black;
+  margin: 30px auto 0;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 30px #939393;
+  min-height: 450px;
+  color: #797979;
+}
+.title {
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+}

@@ -1,0 +1,22 @@
+.filter {
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  //width: 100%;
+  margin-bottom: 10px;
+  align-items: baseline;
+}
+.input {
+  display: block;
+  width: 165px;
+  text-align: left;
+  height: 20px;
+  border: 1px solid green;
+  border-radius: 3px;
+  outline: none;
+  &:focus {
+    border-color: #2bd52b;
+  }
+}

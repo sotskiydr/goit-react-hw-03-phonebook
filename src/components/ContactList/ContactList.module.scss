@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  align-items: baseline;
+}
+.btn {
+  display: inline;
+  width: 100px;
+  height: 30px;
+  background: #f36666;
+  border: none;
+  border-radius: 3px;
+  &:hover,
+  &:focus {
+    background: #ef2828;
+  }
+}
+
+.span {
+  width: 220px;
+  height: 20px;
+  color: rgba(0, 0, 0, 0.79);
+}
